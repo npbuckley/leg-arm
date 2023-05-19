@@ -1,0 +1,93 @@
+LEG         ARM
+================
+ADD         ADD
+ADDI        ADD
+ADDIS       ADDS
+ADDS        ADDS
+
+AND         AND
+ANDI        AND
+ANDIS       ANDS
+ANDS        ANDS
+
+B           B
+B.EQ        B.EQ 
+B.NE        B.NE
+B.LT        B.LT
+B.LE        B.LE
+B.GT        B.GT
+B.GE        B.GE
+B.LO        B.LO
+B.LS        B.LS 
+B.HI        B.HI
+B.HS        B.HS
+BL          BL
+BR          BR
+
+CBNZ        CBNZ
+CBZ         CBZ
+
+EOR         EOR
+EORI        EOR
+
+LDUR        LDR / LDUR
+LDURB       LDRB / LDURB
+LDURH       LDRH / LDURH
+LDURSW      LDRSW / LDURSW
+LDXR        LDXR
+
+LSL         LSL
+LSR         LSR
+
+MOVK        MOVK
+MOVZ        MOVZ
+
+ORR         ORR
+ORRI        ORR
+
+STUR        STR / STUR
+STURB       STRB / STURB
+STURH       STRH / STURH
+STURW       STR / STUR
+STXR        STXR
+
+SUB         SUB 
+SUBI        SUB
+SUBIS       SUBS 
+SUBS        SUBS
+
+FADDS       FADD
+FADDD       FADD
+
+FCMPS       FCMP 
+FCMPD       FCMP
+
+FDIVS       FDIV 
+FIDVD       FDIV
+
+FMULS       FMUL 
+FMULD       FMUL
+
+FSUBS       FSUB
+FSUBD       FSUB
+
+LDURS       LDR / LDUR
+LDURD       LDR / LDUR
+
+MUL         MUL
+
+SDIV        SDIV
+SMULH       SMULH
+
+STURS       STR / STUR
+STURD       STR / STUR
+
+UDIV        UDIV
+UMULH       UMULH
+
+CMP         CMP
+CMPI        CMP
+
+LDA         ADR
+
+MOV         MOV
