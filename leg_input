@@ -1,0 +1,5 @@
+hello:  ADDI X1, X2, #3
+        CMPI X4, #67
+        CBNZ X5
+        ADDIS X1, X4, #40
+        B.EQ label
